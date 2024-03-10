@@ -24,4 +24,18 @@ ptr.next = new_data
 new_data.next = head
 ptr = new_data
 
+new = Car("black")
+new.next = head
+
+ptr = head
+while ptr.next != head:
+    ptr = ptr.next
+ptr.next = new
+
+head = new
+
+new2 = Car("Pink")
+new2.next = head.next.next
+head.next.next = new2
+
 traverse(head)

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head> <title> My home </title> </head>
+    <body>
+        <form action="/formprocess.php" method="post">
+            <p>帳號: <input type="text" name="account" size="12" placeholder="請輸入帳號"></p>
+            <p>密碼: <input type="password" name="password" placeholder="請輸入密碼"></p>
+            <input type="submit" value="Send Request">
+            <input type="reset" value="Reset">
+            <p>請選擇你喜歡的水果:(可複選)</p>
+            <input type="checkbox" name="like" value="apple">蘋果<br>
+            <input type="checkbox" name="like" value="banana">香蕉<br>
+            <input type="checkbox" name="like" value="pineapple">鳳梨<br>
+            <input type="checkbox" name="like" value="strawberry">草莓<br>
+            <input type="radio" name="like" value="many">全糖<br>
+            <input type="radio" name="like" value="medium">半糖<br>
+            <input type="radio" name="like" value="less">微糖<br>
+            請填寫以下基本資料:<br>
+            姓名:<input type="text" ><br>
+            電話:<input type="tel" ><br>
+            信箱:<input type="email" ><br>
+            網站:<input type="url" ><br>
+            <input type="date" max="2024-01-30" min="1995-01-30">
+            <input type="time" max="23:59" min="00:00"><br>
+            <input type="file" accept=".jpg, .png" multiple><br>
+            <textarea name="mytext" rows="6" cols="40" required>我是多行輸入框....</textarea>
+            <select>
+                <option>請選擇你最愛的寵物</option>
+                <option>Dog</option>
+                <option selected>Cat</option>
+                <option>Hamster</option>
+                <option>Parrot</option>
+                <option disabled>Spider</option>
+                <option>Goldfish</option>
+            </select>
+        </form>
+    </body>
+</html>
