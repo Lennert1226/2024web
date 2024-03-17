@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+    font-size: 5em;
+}
+p {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+h3,p {
+    color: grey;
+}
+h5 {
+    color: black;
+}
+#my-love {
+    color: lightblue;
+}
+.urgent {
+    color: darkred;
+}
+#customer-review {
+    border-color: darkslateblue;
+    background-color: rgb(187, 226, 187);
+    color: #F75000;
+}
+body{
+    background-image: url("../shutterstock_509699914.webp");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: aqua;
+}

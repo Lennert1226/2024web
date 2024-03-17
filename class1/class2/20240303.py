@@ -34,8 +34,23 @@ ptr.next = new
 
 head = new
 
-new2 = Car("Pink")
-new2.next = head.next.next
-head.next.next = new2
+#將新結點X插入單向串列中間的位置
+new = Car("pink")
+new.next = head.next.next
+head.next.next = new
+
+ptr = head
+while ptr.next != head:
+    ptr = ptr.next
+head = head.next
+ptr.next = head
+
+#刪除環狀串列的中間項
+ptr = head
+while ptr.next.color != "pink":
+    ptr = ptr.next
+
+ptr.next = ptr.next.next
+
 
 traverse(head)
