@@ -1,0 +1,14 @@
+h1 {
+    color: #003D1F
+}
+body {
+    background-color: rgb(197, 231, 211) no-repeat fixed center;
+    background-size: 50%;
+}
+#send {
+    background-color: lightseagreen;
+    border-color: maroon;
+}
+.yee {
+    color: #01814A
+}

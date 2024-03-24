@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> My home </title> 
+        <link href="styles/HW.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1>2024 前端春季班 課程心得表單</h1>
+        <form action="/formprocess.php" method="post">
+        <h3 class="yee">*About You*</h3><br>
+            Name:<br>
+            <input type="text" placeholder="你的名字"><br>
+            Email:<br>
+            <input type="email"><br>
+            Birthday and time:<br>
+            <input type="date" max="2024-01-30" min="1995-01-30">
+            <input type="time" max="23:59" min="00:00"><br>
+            <hr>
+            <h3 class="yee">*About Course*</h3>
+            <h3><strong>請勾選目前春季班聽不懂的課程內容:</strong></h3>
+            <input type="checkbox" name="like" value="Class1">Class1:HTML 基本介紹與元素<br>
+            <input type="checkbox" name="like" value="Class2">Class2:HTML 圖片列表與表格<br>
+            <input type="checkbox" name="like" value="Class3">Class3:HTML 表單與輸入類型<br>
+            <br>
+            <h3><strong>請問你最有興趣學習的技術:</strong></h3>
+            <input type="radio" name="like" value="HTML">HTML<br>
+            <input type="radio" name="like" value="CSS">CSS<br>
+            <input type="radio" name="like" value="JavaScript">JavaScript<br>
+            <h3 class="yee">*Comments*</h3>
+            <textarea id="customer-review">你的留言</textarea><br>
+            <input id="send" type="submit" value="送出資料">
+            <input id="rewrite" type="reset" value="重新填寫">
+        </form>
+    </body>
+</html>
