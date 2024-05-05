@@ -1,0 +1,18 @@
+.outer {
+    background: url("https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?cs=srgb&dl=pexels-jaime-reimer-1376930-2662116.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    border: 3px black solid;
+    background-position: center;
+    background-size: contain;
+}
+.outer1 {
+    background: url("https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?cs=srgb&dl=pexels-jaime-reimer-1376930-2662116.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    border: 3px black solid;
+    background-position: center;
+    background-size: cover;
+}

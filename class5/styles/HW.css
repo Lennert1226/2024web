@@ -1,0 +1,25 @@
+body {
+    background: url('./logo_tree.png') rgb(197, 231, 211) no-repeat fixed center;
+    background-size: 50%;
+    font-family: fantasy;
+}
+#title {
+    color: #003d1f;
+    border-top-style: dashed;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #01814a;
+}
+.subtitle {
+    color: #01814a;
+}
+.btn {
+    background-color: lightseagreen;
+    border-color: maroon;
+}
+#fundamental, #course, #other {
+    border-left-style: solid;
+    border-left-color: #01814a;
+    border-left-width: 5px;
+    padding-left: 25px;
+}

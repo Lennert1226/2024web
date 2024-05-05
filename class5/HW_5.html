@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> My home </title> 
+        <link href="styles/HW.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="title">2024 前端春季班 課程心得表單</div>
+        <form action="/formprocess.php" method="post">
+        
+            <div id="fundamental"><p><h3 class="subtitle">*About You*</h3>
+                <strong>Name:</strong><br>
+                <input type="text" name="name" value="你的名字"><br>
+                <strong>Email:</strong><br> 
+                <input type="email" value="你的信箱"><br></p>
+                <strong>Birthday and time:</strong><br>
+                <input type="date" value="2024-12-31" max="2024-01-30" min="1995-01-30">
+                <input type="time" value="06:00" max="23:59" min="00:00"><br>
+            </div>
+                <hr>
+            <div id="course"><p><h3 class="subtitle">*About Course*</h3>
+                <strong>請勾選目前春季班聽不懂的課程內容:</strong><br>
+                <input type="checkbox" value="Class1">Class1:HTML 基本介紹與元素<br>
+                <input type="checkbox" value="Class2">Class2:HTML 圖片列表與表格<br>
+                <input type="checkbox" value="Class3">Class3:HTML 表單與輸入類型<br>
+                <br>
+                <strong>請問你最有興趣學習的技術:</strong><br>
+                <input type="radio" name="interest" value="HTML">HTML<br>
+                <input type="radio" name="interest" value="CSS">CSS<br>
+                <input type="radio" name="interest" value="JavaScript">JavaScript<br></p>
+            </div>
+            <div><h3 id="subtitle">*Comments*</h3>
+                <textarea name="comments" rows="5" cols="20">你的留言</textarea><br></p>
+            </div>
+                <input class="btn" type="submit" value="送出資料">
+                <input class="btn" type="reset" value="重新填寫">
+        </form>
+    </body>
+</html>

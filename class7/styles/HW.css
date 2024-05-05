@@ -1,0 +1,19 @@
+.title {
+    color: #faa;
+}
+.title:hover {
+    color: #aaf;
+}
+.out_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 3px darkseagreen solid;
+}
+.out_block:hover .in_block{
+    width: 100px;
+    height: 100px;
+    border: 3px lightseagreen ;
+}
